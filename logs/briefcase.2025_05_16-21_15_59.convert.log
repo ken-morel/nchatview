@@ -1,0 +1,258 @@
+Date/Time:       2025-05-16 21:16:00 
+Command line:    /home/engon/bin/briefcase convert
+
+OS Release:      Linux 6.14.0-15-generic
+OS Version:      #15-Ubuntu SMP PREEMPT_DYNAMIC Sun Apr  6 15:05:05 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.14.0-15-generic-x86_64-with-glibc2.41
+
+Python exe:      /home/engon/bin/python
+Python version:  3.13.3 (main, Apr  8 2025, 19:55:40) [GCC 14.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.23
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ANDROID_SDK_ROOT=/home/engon/Android/Sdk
+	CC=clang
+	CHROME_EXECUTABLE=/usr/bin/google-chrome
+	COLORTERM=truecolor
+	CXX=clang++
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DISPLAY=:0
+	GHOSTTY_BIN_DIR=/usr/bin
+	GHOSTTY_RESOURCES_DIR=/usr/share/ghostty
+	GTK_IM_MODULE=libs
+	HOME=/home/engon
+	I3SOCK=/run/user/1000/sway-ipc.1000.1395.sock
+	LANG=en_GB.UTF-8
+	LC_ADDRESS=en_GB.UTF-8
+	LC_IDENTIFICATION=en_GB.UTF-8
+	LC_MEASUREMENT=en_GB.UTF-8
+	LC_MONETARY=en_GB.UTF-8
+	LC_NAME=en_GB.UTF-8
+	LC_NUMERIC=en_GB.UTF-8
+	LC_PAPER=en_GB.UTF-8
+	LC_TELEPHONE=en_GB.UTF-8
+	LC_TIME=en_GB.UTF-8
+	LESS=-R
+	LOGNAME=engon
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	MAIL=/var/mail/engon
+	NVM_BIN=/home/engon/.nvm/versions/node/v22.14.0/bin
+	NVM_CD_FLAGS=-q
+	NVM_DIR=/home/engon/.nvm
+	NVM_INC=/home/engon/.nvm/versions/node/v22.14.0/include/node
+	OLDPWD=/home/engon/ama/nchatview
+	PAGER=less
+	PATH=/home/engon/.console-ninja/.bin:/home/engon/.nvm/versions/node/v22.14.0/bin:/home/engon/flutter/:/home/engon/flutter/bin/::/home/engon/zls-linux-x86_64-0.14.0:/home/engon/zig-linux-x86_64-0.14.0::/home/engon/bin:/home/engon/.local/bin:/usr/local/bin:/home/engon/flutter/bin:/home/engon/.julia/juliaup/julia-1.11.3+0.x64.linux.gnu/bin:/usr/local/go/bin:/home/engon/Android/Sdk/cmdline-tools/latest/bin:/home/engon/Android/Sdk/platform-tools:/home/engon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/engon/.pub-cache/bin
+	PWD=/home/engon/ama/nchatview
+	QT_IM_MODULE=ibus
+	SHELL=/usr/bin/zsh
+	SHLVL=1
+	SWAYSOCK=/run/user/1000/sway-ipc.1000.1395.sock
+	TERM=xterm-ghostty
+	TERMINFO=/usr/share/terminfo
+	TERM_PROGRAM=ghostty
+	TERM_PROGRAM_VERSION=1.1.3
+	USER=engon
+	WAYLAND_DISPLAY=wayland-1
+	XCURSOR_SIZE=24
+	XDG_DATA_DIRS=/home/engon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SEAT=seat0
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_ID=1
+	XDG_SESSION_TYPE=wayland
+	XDG_VTNR=1
+	XMODIFIERS=@im=libs
+	ZSH=/home/engon/.oh-my-zsh
+	_=/home/engon/bin/briefcase
+
+pyproject.toml:
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nchatview"
+version = "0.1.0"
+authors = [
+    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },  # Update email
+]
+description = "A Python utility to open nchat message attachments from the command line"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cli", "attachments", "nchat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Repository = "https://github.com/ken-morel/nchatview"
+"Bug Tracker" = "https://github.com/ken-morel/nchatview/issues"
+
+[project.scripts]
+nchatview = "nchatview:main"
+
+[tool.setuptools.package-dir]
+nchatview = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nchatview*"]
+
+Briefcase Log:
+[21:15:45]                                                                                                                                                            convert.py:715
+           Let's setup an existing project as a Briefcase app!                                                                                                        convert.py:716
+                                                                                                                                                                      console.py:697
+                                                                                                                                                                      console.py:698
+           -- App name ------------------------------------------------------------------                                                                             console.py:699
+                                                                                                                                                                      convert.py:123
+           Using value from PEP621 formatted pyproject.toml 'nchatview'                                                                                               convert.py:124
+                                                                                                                                                                      console.py:697
+                                                                                                                                                                      console.py:698
+           -- Formal Name ---------------------------------------------------------------                                                                             console.py:699
+                                                                                                                                                                      console.py:881
+           We need a formal name for your application. This is the name that will be                                                                                  console.py:882
+           displayed to humans whenever the name of the application is displayed. It can                                                                                            
+           include spaces and punctuation, and any capitalization will be used as you                                                                                               
+           type it here.                                                                                                                                                            
+                                                                                                                                                                                    
+           Based on the app name, we suggest a formal name of 'Nchatview', but you can                                                                                              
+           use another name if you want.                                                                                                                                            
+                                                                                                                                                                      console.py:883
+[21:15:59] Formal Name [Nchatview]:                                                                                                                                   convert.py:151
+           User input: nchat attachment preiew                                                                                                                        convert.py:151
+                                                                                                                                                                      __main__.py:42
+           Cannot find a suitable source directory for the app.                                                                                                       __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           Based on your app name, 'nchatview', you must have a directory named 'nchatview', either in your project root or a subdirectory (e.g. 'src/nchatview'),    __main__.py:43
+           that contains a '__main__.py'.                                                                                                                                           
+           Saving log... started                                                                                                                                      console.py:433
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/engon/lib/python3.13/site-packages/briefcase/__main__.py:27 in main                                                                                                        │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0>                                                                                         │ │
+│ │       console = <briefcase.console.Console object at 0x77ff570c9400>                                                                                                         │ │
+│ │             e = BriefcaseCommandError("Cannot find a suitable source directory for the app.\n\nBased on your app name, 'nchatview', you must have a directory named          │ │
+│ │                 'nchatview', either in your project root or a subdirectory (e.g. 'src/nchatview'), that contains a '__main__.py'.")                                          │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │       options = {'template': None, 'template_branch': None, 'project_overrides': None}                                                                                       │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:797 in __call__                                                                                           │
+│                                                                                                                                                                                  │
+│   794 │   │   # Setup the app for briefcase                                                                                                                                      │
+│   795 │   │   with TemporaryDirectory() as tmp_path:                                                                                                                             │
+│   796 │   │   │   tmp_path = Path(tmp_path)                                                                                                                                      │
+│ ❱ 797 │   │   │   self.convert_app(                                                                                                                                              │
+│   798 │   │   │   │   tmp_path=tmp_path,                                                                                                                                         │
+│   799 │   │   │   │   template=template,                                                                                                                                         │
+│   800 │   │   │   │   template_branch=template_branch,                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                     │
+│ │           options = {}                                                                   │                                                                                     │
+│ │ project_overrides = None                                                                 │                                                                                     │
+│ │              self = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0> │                                                                                     │
+│ │          template = None                                                                 │                                                                                     │
+│ │   template_branch = None                                                                 │                                                                                     │
+│ │          tmp_path = PosixPath('/tmp/tmp4lp662zw')                                        │                                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────╯                                                                                     │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:718 in convert_app                                                                                        │
+│                                                                                                                                                                                  │
+│   715 │   │   self.console.prompt()                                                                                                                                              │
+│   716 │   │   self.console.prompt("Let's setup an existing project as a Briefcase app!")                                                                                         │
+│   717 │   │                                                                                                                                                                      │
+│ ❱ 718 │   │   context = self.build_app_context(project_overrides)                                                                                                                │
+│   719 │   │   # The convert wizard uses the new project template - but the user already has                                                                                      │
+│   720 │   │   # project code, and we don't want to add additional GUI dependencies (as the                                                                                       │
+│   721 │   │   # existing app should already be defining them), so we use the Empty bootstrap.                                                                                    │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                     │
+│ │           options = {}                                                                   │                                                                                     │
+│ │ project_overrides = {}                                                                   │                                                                                     │
+│ │              self = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0> │                                                                                     │
+│ │          template = None                                                                 │                                                                                     │
+│ │   template_branch = None                                                                 │                                                                                     │
+│ │          tmp_path = PosixPath('/tmp/tmp4lp662zw')                                        │                                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────╯                                                                                     │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:581 in build_app_context                                                                                  │
+│                                                                                                                                                                                  │
+│   578 │   │   class_name = make_class_name(formal_name)                                                                                                                          │
+│   579 │   │   # The module name can be completely derived from the app name.                                                                                                     │
+│   580 │   │   module_name = self.make_module_name(app_name)                                                                                                                      │
+│ ❱ 581 │   │   source_dir = self.input_source_dir(                                                                                                                                │
+│   582 │   │   │   app_name,                                                                                                                                                      │
+│   583 │   │   │   module_name,                                                                                                                                                   │
+│   584 │   │   │   override_value=project_overrides.pop("source_dir", None),                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                     │
+│ │          app_name = 'nchatview'                                                          │                                                                                     │
+│ │        class_name = 'nchatattachmentpreiew'                                              │                                                                                     │
+│ │       formal_name = 'nchat attachment preiew'                                            │                                                                                     │
+│ │       module_name = 'nchatview'                                                          │                                                                                     │
+│ │ project_overrides = {}                                                                   │                                                                                     │
+│ │              self = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0> │                                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────╯                                                                                     │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:217 in input_source_dir                                                                                   │
+│                                                                                                                                                                                  │
+│   214 │   │                                                                                                                                                                      │
+│   215 │   │   :returns: The source directory                                                                                                                                     │
+│   216 │   │   """                                                                                                                                                                │
+│ ❱ 217 │   │   default, intro = self.get_source_dir_hint(app_name, module_name)                                                                                                   │
+│   218 │   │   return self.console.text_question(                                                                                                                                 │
+│   219 │   │   │   intro=intro,                                                                                                                                                   │
+│   220 │   │   │   description="Source Directory",                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ────────────────────────────────────────╮                                                                                        │
+│ │       app_name = 'nchatview'                                                          │                                                                                        │
+│ │    module_name = 'nchatview'                                                          │                                                                                        │
+│ │ override_value = None                                                                 │                                                                                        │
+│ │           self = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0> │                                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────╯                                                                                        │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:185 in get_source_dir_hint                                                                                │
+│                                                                                                                                                                                  │
+│   182 │   │   │   │   key=lambda p: (len(p.parents), len(str(p))),                                                                                                               │
+│   183 │   │   │   )                                                                                                                                                              │
+│   184 │   │   else:  # We have already checked that there are directories in the project root                                                                                    │
+│ ❱ 185 │   │   │   raise BriefcaseCommandError(                                                                                                                                   │
+│   186 │   │   │   │   "Cannot find a suitable source directory for the app.\n"                                                                                                   │
+│   187 │   │   │   │   "\n"                                                                                                                                                       │
+│   188 │   │   │   │   f"Based on your app name, '{app_name}', you must have a directory "                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                     │
+│ │          app_name = 'nchatview'                                                          │                                                                                     │
+│ │       module_name = 'nchatview'                                                          │                                                                                     │
+│ │ possible_src_dirs = []                                                                   │                                                                                     │
+│ │              self = <briefcase.commands.convert.ConvertCommand object at 0x77ff570cacf0> │                                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────╯                                                                                     │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Cannot find a suitable source directory for the app.
+
+Based on your app name, 'nchatview', you must have a directory named 'nchatview', either in your project root or a subdirectory (e.g. 'src/nchatview'), that contains a '__main__.py'.

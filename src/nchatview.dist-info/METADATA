@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.23
+Name: nchatview
+Formal-Name: nchat attachment viewer
+App-ID: com.github.ken-morel.nchatview
+Version: 0.0.1
+Home-page: https://github.com/ken-morel/nchatview
+Download-URL: https://github.com/ken-morel/nchatview
+Author: Engon Ken Morel
+Author-email: engonken8@gmail.com
+Summary: A Python utility to open nchat message attachments from the command line

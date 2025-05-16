@@ -1,0 +1,135 @@
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nchatview"
+version = "0.1.0"
+authors = [
+    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },  # Update email
+]
+description = "A Python utility to open nchat message attachments from the command line"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cli", "attachments", "nchat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Repository = "https://github.com/ken-morel/nchatview"
+"Bug Tracker" = "https://github.com/ken-morel/nchatview/issues"
+
+[project.scripts]
+nchatview = "nchatview:main"
+
+
+
+# content below this line added by briefcase convert
+# This project was generated with 0.3.23 using template: https://github.com/beeware/briefcase-template @ v0.3.23
+[tool.briefcase]
+project_name = "nchatview"
+bundle = "com.github.ken-morel"
+version = "0.0.1"
+url = "https://github.com/ken-morel/nchatview"
+license.file = "LICENSE"
+author = "Engon Ken Morel"
+author_email = "engonken8@gmail.com"
+
+[tool.briefcase.app.nchatview]
+formal_name = "nchat attachment viewer"
+description = "A Python utility to open nchat message attachments from the command line"
+long_description = """Easily dodges between applications depending on file type to open in appropriate app possibly on terminal."""
+sources = [
+    "src/nchatview",
+]
+test_sources = [
+    "tests",
+]
+console_app = true
+
+requires = [
+    # Add your cross-platform app requirements here
+]
+test_requires = [
+    # Add your cross-platform test requirements here
+]
+
+[tool.briefcase.app.nchatview.macOS]
+universal_build = true
+requires = [
+    # Add your macOS-specific app requirements here
+]
+
+[tool.briefcase.app.nchatview.linux]
+requires = [
+    # Add your Linux-specific app requirements here
+]
+
+[tool.briefcase.app.nchatview.linux.system.debian]
+system_requires = [
+    # Add any system packages needed at build the app here
+]
+
+system_runtime_requires = [
+    # Add any system packages needed at runtime here
+]
+
+[tool.briefcase.app.nchatview.linux.system.rhel]
+system_requires = [
+    # Add any system packages needed at build the app here
+]
+
+system_runtime_requires = [
+    # Add any system packages needed at runtime here
+]
+
+[tool.briefcase.app.nchatview.linux.system.suse]
+system_requires = [
+    # Add any system packages needed at build the app here
+]
+
+system_runtime_requires = [
+    # Add any system packages needed at runtime here
+]
+
+[tool.briefcase.app.nchatview.linux.system.arch]
+system_requires = [
+    # Add any system packages needed at build the app here
+]
+
+system_runtime_requires = [
+    # Add any system packages needed at runtime here
+]
+
+[tool.briefcase.app.nchatview.linux.flatpak]
+flatpak_runtime = "org.freedesktop.Platform"
+flatpak_runtime_version = "24.08"
+flatpak_sdk = "org.freedesktop.Sdk"
+
+[tool.briefcase.app.nchatview.windows]
+requires = [
+    # Add your Windows-specific app requirements here
+]
+
+# Mobile deployments
+[tool.briefcase.app.nchatview.iOS]
+requires = [
+    # Add your iOS-specific app requirements here
+]
+
+[tool.briefcase.app.nchatview.android]
+requires = [
+    # Add your Android-specific app requirements here
+]
+
+# Web deployments
+[tool.briefcase.app.nchatview.web]
+requires = [
+    # Add your web-specific app requirements here
+]
+

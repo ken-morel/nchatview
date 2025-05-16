@@ -1,0 +1,235 @@
+Date/Time:       2025-05-16 21:14:54 
+Command line:    /home/engon/bin/briefcase convert
+
+OS Release:      Linux 6.14.0-15-generic
+OS Version:      #15-Ubuntu SMP PREEMPT_DYNAMIC Sun Apr  6 15:05:05 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.14.0-15-generic-x86_64-with-glibc2.41
+
+Python exe:      /home/engon/bin/python
+Python version:  3.13.3 (main, Apr  8 2025, 19:55:40) [GCC 14.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.23
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ANDROID_SDK_ROOT=/home/engon/Android/Sdk
+	CC=clang
+	CHROME_EXECUTABLE=/usr/bin/google-chrome
+	COLORTERM=truecolor
+	CXX=clang++
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DISPLAY=:0
+	GHOSTTY_BIN_DIR=/usr/bin
+	GHOSTTY_RESOURCES_DIR=/usr/share/ghostty
+	GTK_IM_MODULE=libs
+	HOME=/home/engon
+	I3SOCK=/run/user/1000/sway-ipc.1000.1395.sock
+	LANG=en_GB.UTF-8
+	LC_ADDRESS=en_GB.UTF-8
+	LC_IDENTIFICATION=en_GB.UTF-8
+	LC_MEASUREMENT=en_GB.UTF-8
+	LC_MONETARY=en_GB.UTF-8
+	LC_NAME=en_GB.UTF-8
+	LC_NUMERIC=en_GB.UTF-8
+	LC_PAPER=en_GB.UTF-8
+	LC_TELEPHONE=en_GB.UTF-8
+	LC_TIME=en_GB.UTF-8
+	LESS=-R
+	LOGNAME=engon
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	MAIL=/var/mail/engon
+	NVM_BIN=/home/engon/.nvm/versions/node/v22.14.0/bin
+	NVM_CD_FLAGS=-q
+	NVM_DIR=/home/engon/.nvm
+	NVM_INC=/home/engon/.nvm/versions/node/v22.14.0/include/node
+	OLDPWD=/home/engon/ama/nchatview
+	PAGER=less
+	PATH=/home/engon/.console-ninja/.bin:/home/engon/.nvm/versions/node/v22.14.0/bin:/home/engon/flutter/:/home/engon/flutter/bin/::/home/engon/zls-linux-x86_64-0.14.0:/home/engon/zig-linux-x86_64-0.14.0::/home/engon/bin:/home/engon/.local/bin:/usr/local/bin:/home/engon/flutter/bin:/home/engon/.julia/juliaup/julia-1.11.3+0.x64.linux.gnu/bin:/usr/local/go/bin:/home/engon/Android/Sdk/cmdline-tools/latest/bin:/home/engon/Android/Sdk/platform-tools:/home/engon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/engon/.pub-cache/bin
+	PWD=/home/engon/ama/nchatview
+	QT_IM_MODULE=ibus
+	SHELL=/usr/bin/zsh
+	SHLVL=1
+	SWAYSOCK=/run/user/1000/sway-ipc.1000.1395.sock
+	TERM=xterm-ghostty
+	TERMINFO=/usr/share/terminfo
+	TERM_PROGRAM=ghostty
+	TERM_PROGRAM_VERSION=1.1.3
+	USER=engon
+	WAYLAND_DISPLAY=wayland-1
+	XCURSOR_SIZE=24
+	XDG_DATA_DIRS=/home/engon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SEAT=seat0
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_ID=1
+	XDG_SESSION_TYPE=wayland
+	XDG_VTNR=1
+	XMODIFIERS=@im=libs
+	ZSH=/home/engon/.oh-my-zsh
+	_=/home/engon/bin/briefcase
+
+pyproject.toml:
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nchatview"
+version = "0.1.0"
+authors = [
+    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },  # Update email
+]
+description = "A Python utility to open nchat message attachments from the command line"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cli", "attachments", "nchat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Repository = "https://github.com/ken-morel/nchatview"
+Bug Tracker = "https://github.com/ken-morel/nchatview/issues"
+
+[project.scripts]
+nchatview = "nchatview:main"
+
+[tool.setuptools.package-dir]
+nchatview = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["nchatview*"]
+
+Briefcase Log:
+[21:14:54] Saving log... started                                                                                                                                      console.py:433
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/engon/lib/python3.13/site-packages/briefcase/__main__.py:27 in main                                                                                                        │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────── locals ────────────────────────────────────────╮                                                                                       │
+│ │       command = <briefcase.commands.convert.ConvertCommand object at 0x7269f07facf0>   │                                                                                       │
+│ │       console = <briefcase.console.Console object at 0x7269f07f9400>                   │                                                                                       │
+│ │ extra_cmdline = []                                                                     │                                                                                       │
+│ │       options = {'template': None, 'template_branch': None, 'project_overrides': None} │                                                                                       │
+│ │     overrides = {}                                                                     │                                                                                       │
+│ │        result = 0                                                                      │                                                                                       │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────╯                                                                                       │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:792 in __call__                                                                                           │
+│                                                                                                                                                                                  │
+│   789 │   │   # There are no apps, so finalize() will be a no op on app configurations.                                                                                          │
+│   790 │   │   self.finalize()                                                                                                                                                    │
+│   791 │   │                                                                                                                                                                      │
+│ ❱ 792 │   │   self.validate_pyproject_file()                                                                                                                                     │
+│   793 │   │                                                                                                                                                                      │
+│   794 │   │   # Setup the app for briefcase                                                                                                                                      │
+│   795 │   │   with TemporaryDirectory() as tmp_path:                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ─────────────────────────────────────────╮                                                                                     │
+│ │           options = {}                                                                   │                                                                                     │
+│ │ project_overrides = None                                                                 │                                                                                     │
+│ │              self = <briefcase.commands.convert.ConvertCommand object at 0x7269f07facf0> │                                                                                     │
+│ │          template = None                                                                 │                                                                                     │
+│ │   template_branch = None                                                                 │                                                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────╯                                                                                     │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.13/site-packages/briefcase/commands/convert.py:774 in validate_pyproject_file                                                                            │
+│                                                                                                                                                                                  │
+│   771 │   │   │   )                                                                            ╭────────────────────────────────── locals ───────────────────────────────────╮   │
+│   772 │   │                                                                                    │ file = <_io.BufferedReader name='/home/engon/ama/nchatview/pyproject.toml'> │   │
+│   773 │   │   with open(self.base_path / "pyproject.toml", "rb") as file:                      │ self = <briefcase.commands.convert.ConvertCommand object at 0x7269f07facf0> │   │
+│ ❱ 774 │   │   │   pyproject = tomllib.load(file)                                               ╰─────────────────────────────────────────────────────────────────────────────╯   │
+│   775 │   │                                                                                                                                                                      │
+│   776 │   │   if "tool" in pyproject and "briefcase" in pyproject["tool"]:                                                                                                       │
+│   777 │   │   │   raise BriefcaseCommandError(                                                                                                                                   │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.13/tomllib/_parser.py:66 in load                                                                                                                                │
+│                                                                                                                                                                                  │
+│    63 │   │   raise TypeError(                                                                                                                                                   │
+│    64 │   │   │   "File must be opened in binary mode, e.g. use `open('foo.toml', 'rb')`"                                                                                        │
+│    65 │   │   ) from None                                                                                                                                                        │
+│ ❱  66 │   return loads(s, parse_float=parse_float)                                                                                                                               │
+│    67                                                                                                                                                                            │
+│    68                                                                                                                                                                            │
+│    69 def loads(s: str, /, *, parse_float: ParseFloat = float) -> dict[str, Any]:  # noqa: C90                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │  b = b'[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846 │                                                                               │
+│ │ fp = <_io.BufferedReader name='/home/engon/ama/nchatview/pyproject.toml'>                      │                                                                               │
+│ │  s = '[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846  │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.13/tomllib/_parser.py:102 in loads                                                                                                                              │
+│                                                                                                                                                                                  │
+│    99 │   │   │   pos += 1                                                                                                                                                       │
+│   100 │   │   │   continue                                                                                                                                                       │
+│   101 │   │   if char in KEY_INITIAL_CHARS:                                                                                                                                      │
+│ ❱ 102 │   │   │   pos = key_value_rule(src, pos, out, header, parse_float)                                                                                                       │
+│   103 │   │   │   pos = skip_chars(src, pos, TOML_WS)                                                                                                                            │
+│   104 │   │   elif char == "[":                                                                                                                                                  │
+│   105 │   │   │   try:                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────────────╮                                     │
+│ │        char = 'B'                                                                                                                        │                                     │
+│ │      header = ('project', 'urls')                                                                                                        │                                     │
+│ │         out = Output(data=<tomllib._parser.NestedDict object at 0x7269f06df620>, flags=<tomllib._parser.Flags object at 0x7269f06df8c0>) │                                     │
+│ │         pos = 693                                                                                                                        │                                     │
+│ │           s = '[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846                                   │                                     │
+│ │ second_char = 'p'                                                                                                                        │                                     │
+│ │         src = '[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846                                   │                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                     │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.13/tomllib/_parser.py:326 in key_value_rule                                                                                                                     │
+│                                                                                                                                                                                  │
+│   323 def key_value_rule(                                                                                                                                                        │
+│   324 │   src: str, pos: Pos, out: Output, header: Key, parse_float: ParseFloat                                                                                                  │
+│   325 ) -> Pos:                                                                                                                                                                  │
+│ ❱ 326 │   pos, key, value = parse_key_value_pair(src, pos, parse_float)                                                                                                          │
+│   327 │   key_parent, key_stem = key[:-1], key[-1]                                                                                                                               │
+│   328 │   abs_key_parent = header + key_parent                                                                                                                                   │
+│   329                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                          │
+│ │ header = ('project', 'urls')                                                                                                        │                                          │
+│ │    out = Output(data=<tomllib._parser.NestedDict object at 0x7269f06df620>, flags=<tomllib._parser.Flags object at 0x7269f06df8c0>) │                                          │
+│ │    pos = 693                                                                                                                        │                                          │
+│ │    src = '[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846                                   │                                          │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                          │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.13/tomllib/_parser.py:366 in parse_key_value_pair                                                                                                               │
+│                                                                                                                                                                                  │
+│   363 │   except IndexError:                                                                                                                                                     │
+│   364 │   │   char = None                                                                                                                                                        │
+│   365 │   if char != "=":                                                                                                                                                        │
+│ ❱ 366 │   │   raise suffixed_err(src, pos, "Expected '=' after a key in a key/value pair")                                                                                       │
+│   367 │   pos += 1                                                                                                                                                               │
+│   368 │   pos = skip_chars(src, pos, TOML_WS)                                                                                                                                    │
+│   369 │   pos, value = parse_value(src, pos, parse_float)                                                                                                                        │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │ char = 'T'                                                                                      │                                                                              │
+│ │  key = ('Bug',)                                                                                 │                                                                              │
+│ │  pos = 697                                                                                      │                                                                              │
+│ │  src = '[build-system]\nrequires = ["setuptools>=65.0.0", "wheel"]\nbuild-backend = "setup'+846 │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+TOMLDecodeError: Expected '=' after a key in a key/value pair (at line 25, column 5)
