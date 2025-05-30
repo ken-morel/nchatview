@@ -3,9 +3,11 @@ README.md
 pyproject.toml
 src/nchatview/__init__.py
 src/nchatview/__main__.py
+src/nchatview/audioplayer.py
 src/nchatview.egg-info/PKG-INFO
 src/nchatview.egg-info/SOURCES.txt
 src/nchatview.egg-info/dependency_links.txt
 src/nchatview.egg-info/entry_points.txt
+src/nchatview.egg-info/requires.txt
 src/nchatview.egg-info/top_level.txt
 tests/test_app.py

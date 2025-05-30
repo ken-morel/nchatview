@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=nchat attachment viewer
+Exec=/usr/bin/nchatview %F
+Icon=com.github.ken-morel.nchatview
+Categories=Utility;
+Comment=A Python utility to open nchat message attachments from the command line

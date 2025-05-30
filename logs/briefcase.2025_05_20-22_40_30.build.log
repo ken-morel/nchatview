@@ -1,0 +1,744 @@
+Date/Time:       2025-05-20 22:40:31 
+Command line:    /home/engon/bin/briefcase build
+
+OS Release:      Linux 6.11.0-26-generic
+OS Version:      #26-Ubuntu SMP PREEMPT_DYNAMIC Sat Apr 12 11:25:41 UTC 2025
+Architecture:    x86_64
+Platform:        Linux-6.11.0-26-generic-x86_64-with-glibc2.40
+
+Python exe:      /home/engon/bin/python3
+Python version:  3.12.7 (main, Feb  4 2025, 14:46:03) [GCC 14.2.0]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.23
+Target platform: linux
+Target format:   system
+
+Environment Variables:
+	COLORTERM=truecolor
+	DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+	DEBUGINFOD_URLS=https://debuginfod.ubuntu.com 
+	DISPLAY=:0
+	ECORE_EVAS_ENGINE=wayland-egl
+	ELM_ACCEL=gl
+	GREETD_SOCK=/run/greetd-1175.sock
+	HOME=/home/engon
+	I3SOCK=/run/user/1000/sway-ipc.1000.1653.sock
+	JOURNAL_STREAM=9:11228
+	LANG=en_GB.UTF-8
+	LC_ADDRESS=en_GB.UTF-8
+	LC_IDENTIFICATION=en_GB.UTF-8
+	LC_MEASUREMENT=en_GB.UTF-8
+	LC_MONETARY=en_GB.UTF-8
+	LC_NAME=en_GB.UTF-8
+	LC_NUMERIC=en_GB.UTF-8
+	LC_PAPER=en_GB.UTF-8
+	LC_TELEPHONE=en_GB.UTF-8
+	LC_TIME=en_GB.UTF-8
+	LESS=-R
+	LESSCLOSE=/usr/bin/lesspipe %s %s
+	LESSOPEN=| /usr/bin/lesspipe %s
+	LOGNAME=engon
+	LSCOLORS=Gxfxcxdxbxegedabagacad
+	LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+	MAIL=/var/mail/engon
+	OLDPWD=/home/engon
+	PAGER=less
+	PATH=/home/engon/.local/bin:/home/engon/.juliaup/bin:/home/engon/neovim/bin:/home/engon/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+	PS1=(engon) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ 
+	PWD=/home/engon/nchatview
+	QT_ACCESSIBILITY=1
+	QT_QPA_PLATFORM=wayland;xcb
+	QT_QPA_PLATFORMTHEME=qt5ct
+	SHELL=/bin/bash
+	SHLVL=2
+	SSH_AGENT_PID=1669
+	SSH_AUTH_SOCK=/tmp/ssh-TjwRMII0AVUD/agent.1653
+	SWAYSOCK=/run/user/1000/sway-ipc.1000.1653.sock
+	TERM=foot
+	USER=engon
+	VIRTUAL_ENV=/home/engon
+	VIRTUAL_ENV_PROMPT=(engon) 
+	WAYLAND_DISPLAY=wayland-1
+	XCURSOR_SIZE=24
+	XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntusway:/etc/xdg
+	XDG_CURRENT_DESKTOP=sway
+	XDG_RUNTIME_DIR=/run/user/1000
+	XDG_SEAT=seat0
+	XDG_SESSION_CLASS=user
+	XDG_SESSION_DESKTOP=sway
+	XDG_SESSION_ID=3
+	XDG_SESSION_TYPE=wayland
+	XDG_VTNR=2
+	XGD_DATA_DIRS=/home/engon/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:
+	ZSH=/home/engon/.oh-my-zsh
+	_=/home/engon/bin/briefcase
+	_JAVA_AWT_WM_NONREPARENTING=1
+	f=/etc/environment.d/90ubuntu-sway.conf
+
+pyproject.toml:
+[build-system]
+requires = ["setuptools>=65.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nchatview"
+version = "0.1.0"
+authors = [
+    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },
+]
+description = "A Python utility to open nchat message attachments from the command line"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["cli", "attachments", "nchat"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
+
+[project.urls]
+Repository = "https://github.com/ken-morel/nchatview"
+"Bug Tracker" = "https://github.com/ken-morel/nchatview/issues"
+
+[project.scripts]
+nchatview = "nchatview:main"
+
+[tool.briefcase]
+project_name = "nchatview"
+bundle = "com.github.ken-morel"
+version = "0.0.1"
+url = "https://github.com/ken-morel/nchatview"
+license.file = "LICENSE"
+author = "Engon Ken Morel"
+author_email = "engonken8@gmail.com"
+
+[tool.briefcase.app.nchatview]
+formal_name = "nchat attachment viewer"
+description = "A Python utility to open nchat message attachments from the command line"
+long_description = """Easily dodges between applications depending on file type to open in appropriate app possibly on terminal."""
+sources = [
+    "src/nchatview",
+]
+test_sources = [
+    "tests",
+]
+console_app = true
+
+requires = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
+
+test_requires = [
+    "pytest>=7.0.0",
+]
+
+[tool.briefcase.app.nchatview.macOS]
+universal_build = true
+requires = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
+
+[tool.briefcase.app.nchatview.linux]
+requires = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
+
+[tool.briefcase.app.nchatview.linux.system.debian]
+system_requires = [
+    "libportaudio2",
+    "libsndfile1",
+    "ffmpeg",
+]
+system_runtime_requires = [
+    "libportaudio2",
+    "libsndfile1",
+    "ffmpeg",
+]
+
+[tool.briefcase.app.nchatview.linux.system.rhel]
+system_requires = [
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
+]
+system_runtime_requires = [
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
+]
+
+[tool.briefcase.app.nchatview.linux.system.suse]
+system_requires = [
+    "portaudio-devel",
+    "libsndfile",
+    "ffmpeg",
+]
+system_runtime_requires = [
+    "portaudio-devel",
+    "libsndfile",
+    "ffmpeg",
+]
+
+[tool.briefcase.app.nchatview.linux.system.arch]
+system_requires = [
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
+]
+system_runtime_requires = [
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
+]
+
+[tool.briefcase.app.nchatview.linux.flatpak]
+flatpak_runtime = "org.freedesktop.Platform"
+flatpak_runtime_version = "24.08"
+flatpak_sdk = "org.freedesktop.Sdk"
+
+[tool.briefcase.app.nchatview.windows]
+requires = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
+
+[tool.briefcase.app.nchatview.iOS]
+requires = [
+    # iOS may have limited support for these packages
+]
+
+[tool.briefcase.app.nchatview.android]
+requires = [
+    # Android may have limited support for these packages
+]
+
+[tool.briefcase.app.nchatview.web]
+requires = [
+    # Web may have limited support for these packages
+]
+
+Briefcase Log:
+[22:40:24]                                                                                                                                                             system.py:134
+           [nchatview] Finalizing application configuration...                                                                                                         system.py:134
+           Targeting ubuntu:oracular (Vendor base debian)                                                                                                              system.py:146
+           Determining glibc version... started                                                                                                                        system.py:204
+           Determining glibc version... done                                                                                                                           system.py:204
+           Targeting glibc 2.40                                                                                                                                        system.py:206
+           Targeting Python3.12                                                                                                                                        system.py:210
+                                                                                                                                                                       create.py:934
+           [nchatview] Generating application template...                                                                                                              create.py:934
+           Using app template: https://github.com/beeware/briefcase-linux-system-template.git, branch v0.3.23                                                           base.py:1131
+           Cloning template 'https://github.com/beeware/briefcase-linux-system-template.git'...                                                                          base.py:963
+[22:40:28] Using existing template (sha 7c5eb1f74d972d66fdcecc58a88c5ec1f9f6d8c1, updated Tue Mar 25 08:55:48 2025)                                                     base.py:1036
+[22:40:30]                                                                                                                                                             create.py:937
+           [nchatview] Installing support package...                                                                                                                   create.py:937
+           No support package required.                                                                                                                                create.py:323
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s python3-dev                                                                                                                             subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: python3-dev                                                                                                                            subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: python                                                                                                                                 subprocess.py:838
+           >>>     Installed-Size: 151                                                                                                                             subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Multi-Arch: allowed                                                                                                                             subprocess.py:838
+           >>>     Source: python3-defaults                                                                                                                        subprocess.py:838
+           >>>     Version: 3.12.6-0ubuntu1                                                                                                                        subprocess.py:838
+           >>>     Replaces: python3 (<< 3.9.2-1~), python3.1 (<< 3.1.2+20100706-3)                                                                                subprocess.py:838
+           >>>     Depends: python3 (= 3.12.6-0ubuntu1), libpython3-dev (= 3.12.6-0ubuntu1), python3.12-dev (>= 3.12.6-1~), libjs-sphinxdoc (>= 7.4)               subprocess.py:838
+           >>>     Breaks: python3 (<< 3.9.2-1~)                                                                                                                   subprocess.py:838
+           >>>     Description: header files and a static library for Python (default)                                                                             subprocess.py:838
+           >>>      Header files, a static library and development tools for building                                                                              subprocess.py:838
+           >>>      Python modules, extending the Python interpreter or embedding Python                                                                           subprocess.py:838
+           >>>      in applications.                                                                                                                               subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      This package is a dependency package, which depends on Debian's default                                                                        subprocess.py:838
+           >>>      Python 3 version's headers (currently v3.12).                                                                                                  subprocess.py:838
+           >>>     Built-Using: sphinx (= 7.4.7-3)                                                                                                                 subprocess.py:838
+           >>>     Homepage: https://www.python.org/                                                                                                               subprocess.py:838
+           >>>     Original-Maintainer: Matthias Klose <doko@debian.org>                                                                                           subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s dpkg-dev                                                                                                                                subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: dpkg-dev                                                                                                                               subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: utils                                                                                                                                  subprocess.py:838
+           >>>     Installed-Size: 1742                                                                                                                            subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: all                                                                                                                               subprocess.py:838
+           >>>     Multi-Arch: foreign                                                                                                                             subprocess.py:838
+           >>>     Source: dpkg                                                                                                                                    subprocess.py:838
+           >>>     Version: 1.22.11ubuntu1                                                                                                                         subprocess.py:838
+           >>>     Provides: dpkg-build-api (= 0), dpkg-build-api (= 1)                                                                                            subprocess.py:838
+           >>>     Depends: perl:any, libdpkg-perl (= 1.22.11ubuntu1), tar (>= 1.28-1), bzip2, xz-utils (>= 5.4.0), patch (>= 2.7), make, binutils,                subprocess.py:838
+           lto-disabled-list                                                                                                                                                        
+           >>>     Recommends: build-essential, gcc | c-compiler, fakeroot, gnupg | sq | sqop | pgpainless-cli | sequoia-chameleon-gnupg, gpgv | sq | sqop |       subprocess.py:838
+           pgpainless-cli | sequoia-chameleon-gnupg, libalgorithm-merge-perl                                                                                                        
+           >>>     Suggests: debian-keyring                                                                                                                        subprocess.py:838
+           >>>     Breaks: debhelper (<< 10.10.1~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), sq (<< 0.33.0~), sqop (<< 0.27.2~)                  subprocess.py:838
+           >>>     Conffiles:                                                                                                                                      subprocess.py:838
+           >>>      /etc/dpkg/shlibs.default 1a2b9d0a869e2aa885ae3621c557fb95                                                                                      subprocess.py:838
+           >>>      /etc/dpkg/shlibs.override 84b1e69080569cc5c613a50887af5200                                                                                     subprocess.py:838
+           >>>     Description: Debian package development tools                                                                                                   subprocess.py:838
+           >>>      This package provides the development tools (including dpkg-source)                                                                            subprocess.py:838
+           >>>      required to unpack, build and upload Debian source packages.                                                                                   subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      Most Debian source packages will require additional tools to build;                                                                            subprocess.py:838
+           >>>      for example, most packages need make and the C compiler gcc.                                                                                   subprocess.py:838
+           >>>     Homepage: https://wiki.debian.org/Teams/Dpkg                                                                                                    subprocess.py:838
+           >>>     Original-Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>                                                                             subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s g++                                                                                                                                     subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: g++                                                                                                                                    subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: devel                                                                                                                                  subprocess.py:838
+           >>>     Installed-Size: 13                                                                                                                              subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Source: gcc-defaults (1.219ubuntu1)                                                                                                             subprocess.py:838
+           >>>     Version: 4:14.1.0-2ubuntu1                                                                                                                      subprocess.py:838
+           >>>     Provides: c++-compiler                                                                                                                          subprocess.py:838
+           >>>     Depends: cpp (= 4:14.1.0-2ubuntu1), cpp-x86-64-linux-gnu (= 4:14.1.0-2ubuntu1), gcc (= 4:14.1.0-2ubuntu1), g++-14 (>= 14.1.0-4~),               subprocess.py:838
+           g++-x86-64-linux-gnu (= 4:14.1.0-2ubuntu1), gcc-14 (>= 14.1.0-4~)                                                                                                        
+           >>>     Suggests: g++-multilib                                                                                                                          subprocess.py:838
+           >>>     Description: GNU C++ compiler                                                                                                                   subprocess.py:838
+           >>>      This is the GNU C++ compiler, a fairly portable optimizing compiler for C++.                                                                   subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      This is a dependency package providing the default GNU C++ compiler.                                                                           subprocess.py:838
+           >>>     Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>                                                                       subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s gcc                                                                                                                                     subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: gcc                                                                                                                                    subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: devel                                                                                                                                  subprocess.py:838
+           >>>     Installed-Size: 37                                                                                                                              subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Source: gcc-defaults (1.219ubuntu1)                                                                                                             subprocess.py:838
+           >>>     Version: 4:14.1.0-2ubuntu1                                                                                                                      subprocess.py:838
+           >>>     Provides: c-compiler                                                                                                                            subprocess.py:838
+           >>>     Depends: cpp (= 4:14.1.0-2ubuntu1), cpp-x86-64-linux-gnu (= 4:14.1.0-2ubuntu1), gcc-14 (>= 14.1.0-4~), gcc-x86-64-linux-gnu (=                  subprocess.py:838
+           4:14.1.0-2ubuntu1)                                                                                                                                                       
+           >>>     Recommends: libc6-dev | libc-dev                                                                                                                subprocess.py:838
+           >>>     Suggests: gcc-multilib, make, manpages-dev, autoconf, automake, libtool, flex, bison, gdb, gcc-doc                                              subprocess.py:838
+           >>>     Conflicts: gcc-doc (<< 1:2.95.3)                                                                                                                subprocess.py:838
+           >>>     Description: GNU C compiler                                                                                                                     subprocess.py:838
+           >>>      This is the GNU C compiler, a fairly portable optimizing compiler for C.                                                                       subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      This is a dependency package providing the default GNU C compiler.                                                                             subprocess.py:838
+           >>>     Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>                                                                       subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s libc6-dev                                                                                                                               subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: libc6-dev                                                                                                                              subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: libdevel                                                                                                                               subprocess.py:838
+           >>>     Installed-Size: 13254                                                                                                                           subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Multi-Arch: same                                                                                                                                subprocess.py:838
+           >>>     Source: glibc                                                                                                                                   subprocess.py:838
+           >>>     Version: 2.40-1ubuntu3.1                                                                                                                        subprocess.py:838
+           >>>     Replaces: libc6 (<= 2.32-1)                                                                                                                     subprocess.py:838
+           >>>     Provides: libc-dev (= 2.40-1ubuntu3.1)                                                                                                          subprocess.py:838
+           >>>     Depends: libc6 (= 2.40-1ubuntu3.1), libc-dev-bin (= 2.40-1ubuntu3.1), linux-libc-dev, libcrypt-dev, rpcsvc-proto                                subprocess.py:838
+           >>>     Suggests: glibc-doc, manpages-dev                                                                                                               subprocess.py:838
+           >>>     Breaks: binutils (<< 2.38), catch (<< 1.12.2-0.1), heimdal-multidev (<= 7.7.0+dfsg-4), igblast (<= 1.19.0-1), libassimp-dev (<= 5.2.4~ds0-1),   subprocess.py:838
+           libasyncns-dev (<= 0.8-6build2), libatm1-dev (<= 1:2.5.1-4), libaws20-dev (<= 20.2-2+b1), libboinc-app-dev (<= 7.20.2+dfsg-1), libbson-dev (<=                           
+           1.22.0-1), libc6-dev-amd64-cross (<< 2.40~), libcups2-dev (<= 2.4.2-1), libdeal.ii-dev (<= 9.4.0-1), libdkim-dev (<= 1:1.0.21-4build3),                                  
+           libdolfin-dev-common (<= 2019.2.0~git20220407.d29e24d-5), libeckit-dev (<= 1.20.0-1), libfclib-dev (<= 3.1.0+dfsg-2), libfltk1.3-dev (<= 1.3.8-4+b1),                    
+           libghc-resolv-dev (<= 0.1.2.0-3), libghc-resolv-prof (<= 0.1.2.0-3), libglib2.0-dev (<= 2.72.3-1), libgloox-dev (<= 1.0.24-2+b1), libhesiod-dev (<=                      
+           3.2.1-3.1+b1), libinfinity-0.7-dev (<= 0.7.2-1build1), libinsighttoolkit4-dev (<= 4.13.3withdata-dfsg2-3+b1), libinsighttoolkit5-dev (<= 5.2.1-5+b1),                    
+           libismrmrd-dev (<= 1.8.0-2), libldap-dev (<= 2.5.12+dfsg-2), liblog4cplus-dev (<= 2.0.7-1), libloudmouth1-dev (<= 1.5.4-1), libmgl-dev (<= 8.0.1-2),                     
+           libmimalloc2.0 (<= 2.0.6+ds-1), libminc-dev (<= 2.4.03-5), libmongoc-dev (<= 1.22.1-1), libmrpt-ros1bridge-dev (<= 1:2.4.9+ds-4+b2), libmysqlclient-dev                  
+           (<= 8.0.29-1), libnetcdf-dev (<= 1:4.9.0-3), libnetcdf-mpi-dev (<= 1:4.9.0-1), libnetcdf-pnetcdf-dev (<= 1:4.9.0-1), libnfsidmap-dev (<= 1:2.6.1-2),                     
+           libns3-dev (<= 3.36.1+dfsg-4), libola-dev (<= 0.10.8.nojsmin-2), libopenafs-dev (<= 1.8.8.1-3), libopendkim-dev (<= 2.11.0~beta2-7), libopendmarc-dev                    
+           (<= 1.4.2-1), libopenms-dev (<= 2.6.0+cleaned1-3build4), libopenzwave1.6-dev (<= 1.6.1914+ds-1), libpg-query-dev (<= 13-2.1.2-2), librbl-dev (<=                         
+           2.11.0~beta2-7), libre-dev (<= 1.1.0-1build1), libshishi-dev (<= 1.0.2-11), libslurm-dev (<= 21.08.8.2-1), libsocksd0-dev (<= 1.4.2+dfsg-7build7),                       
+           libspf2-dev (<= 1.2.10-7.1+b1), libstrophe-dev (<= 0.12.1-2), libtaningia-dev (<= 0.2.2-2), libtrilinos-amesos-dev (<= 13.2.0-3),                                        
+           libtrilinos-amesos2-dev (<= 13.2.0-3), libtrilinos-anasazi-dev (<= 13.2.0-3), libtrilinos-aztecoo-dev (<= 13.2.0-3), libtrilinos-belos-dev (<=                           
+           13.2.0-3), libtrilinos-epetra-dev (<= 13.2.0-3), libtrilinos-epetraext-dev (<= 13.2.0-3), libtrilinos-galeri-dev (<= 13.2.0-3), libtrilinos-ifpack-dev                   
+           (<= 13.2.0-3), libtrilinos-ifpack2-dev (<= 13.2.0-3), libtrilinos-intrepid-dev (<= 13.2.0-3), libtrilinos-intrepid2-dev (<= 13.2.0-3),                                   
+           libtrilinos-isorropia-dev (<= 13.2.0-3), libtrilinos-kokkos-dev (<= 13.2.0-3), libtrilinos-kokkos-kernels-dev (<= 13.2.0-3), libtrilinos-komplex-dev                     
+           (<= 13.2.0-3), libtrilinos-ml-dev (<= 13.2.0-3), libtrilinos-moertel-dev (<= 13.2.0-3), libtrilinos-muelu-dev (<= 13.2.0-3), libtrilinos-nox-dev (<=                     
+           13.2.0-3), libtrilinos-phalanx-dev (<= 13.2.0-3), libtrilinos-pike-dev (<= 13.2.0-3), libtrilinos-piro-dev (<= 13.2.0-3), libtrilinos-pliris-dev (<=                     
+           13.2.0-3), libtrilinos-rol-dev (<= 13.2.0-3), libtrilinos-rtop-dev (<= 13.2.0-3), libtrilinos-rythmos-dev (<= 13.2.0-3), libtrilinos-sacado-dev (<=                      
+           13.2.0-3), libtrilinos-shylu-dev (<= 13.2.0-3), libtrilinos-stokhos-dev (<= 13.2.0-3), libtrilinos-stratimikos-dev (<= 13.2.0-3), libtrilinos-teko-dev                   
+           (<= 13.2.0-3), libtrilinos-teuchos-dev (<= 13.2.0-3), libtrilinos-thyra-dev (<= 13.2.0-3), libtrilinos-tpetra-dev (<= 13.2.0-3),                                         
+           libtrilinos-trilinoscouplings-dev (<= 13.2.0-3), libtrilinos-triutils-dev (<= 13.2.0-3), libtrilinos-xpetra-dev (<= 13.2.0-3), libtrilinos-zoltan2-dev                   
+           (<= 13.2.0-3), libvbr-dev (<= 2.11.0~beta2-7), libvisp-dev (<= 3.5.0-2+b1), libvotca-dev (<= 2022-3), libvtk6-dev (<= 6.3.0+dfsg2-8.1+b1), libvtk7-dev                   
+           (<= 7.1.1+dfsg2-10.2), open-vm-tools-dev (<= 2:12.0.5-2), pidgin-librvp (<= 0.9.7cvs-3), proftpd-dev (<= 1.3.7d+dfsg-2), slurm-wlm-basic-plugins-dev                     
+           (<= 21.08.8.2-1)                                                                                                                                                         
+           >>>     Conflicts: libc0.3-dev, libc6.1-dev                                                                                                             subprocess.py:838
+           >>>     Description: GNU C Library: Development Libraries and Header Files                                                                              subprocess.py:838
+           >>>      Contains the symlinks, headers, and object files needed to compile                                                                             subprocess.py:838
+           >>>      and link programs which use the standard C library.                                                                                            subprocess.py:838
+           >>>     Homepage: https://www.gnu.org/software/libc/libc.html                                                                                           subprocess.py:838
+           >>>     Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>                                                                       subprocess.py:838
+           >>>     Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc                                                                                 subprocess.py:838
+           >>>     Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git                                                                                 subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s make                                                                                                                                    subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: make                                                                                                                                   subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: devel                                                                                                                                  subprocess.py:838
+           >>>     Installed-Size: 404                                                                                                                             subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Multi-Arch: allowed                                                                                                                             subprocess.py:838
+           >>>     Source: make-dfsg                                                                                                                               subprocess.py:838
+           >>>     Version: 4.3-4.1build2                                                                                                                          subprocess.py:838
+           >>>     Replaces: make-guile                                                                                                                            subprocess.py:838
+           >>>     Depends: libc6 (>= 2.38)                                                                                                                        subprocess.py:838
+           >>>     Suggests: make-doc                                                                                                                              subprocess.py:838
+           >>>     Conflicts: make-guile                                                                                                                           subprocess.py:838
+           >>>     Description: utility for directing compilation                                                                                                  subprocess.py:838
+           >>>      GNU Make is a utility which controls the generation of executables                                                                             subprocess.py:838
+           >>>      and other target files of a program from the program's source                                                                                  subprocess.py:838
+           >>>      files. It determines automatically which pieces of a large program                                                                             subprocess.py:838
+           >>>      need to be (re)created, and issues the commands to (re)create                                                                                  subprocess.py:838
+           >>>      them. Make can be used to organize any task in which targets (files)                                                                           subprocess.py:838
+           >>>      are to be automatically updated based on input files whenever the                                                                              subprocess.py:838
+           >>>      corresponding input is newer --- it is not limited to building                                                                                 subprocess.py:838
+           >>>      computer programs. Indeed, Make is a general purpose dependency                                                                                subprocess.py:838
+           >>>      solver.                                                                                                                                        subprocess.py:838
+           >>>     Homepage: https://www.gnu.org/software/make/                                                                                                    subprocess.py:838
+           >>>     Original-Maintainer: Manoj Srivastava <srivasta@debian.org>                                                                                     subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s libportaudio2                                                                                                                           subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     dpkg-query: package 'libportaudio2' is not installed and no information is available                                                            subprocess.py:838
+           >>>     Use dpkg --info (= dpkg-deb --info) to examine archive files.                                                                                   subprocess.py:838
+           >>> Return code: 1                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s libsndfile1                                                                                                                             subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: libsndfile1                                                                                                                            subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: libs                                                                                                                                   subprocess.py:838
+           >>>     Installed-Size: 582                                                                                                                             subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Multi-Arch: same                                                                                                                                subprocess.py:838
+           >>>     Source: libsndfile                                                                                                                              subprocess.py:838
+           >>>     Version: 1.2.2-1ubuntu5.24.10.1                                                                                                                 subprocess.py:838
+           >>>     Depends: libc6 (>= 2.38), libflac12t64 (>= 1.3.0), libmp3lame0 (>= 3.100), libmpg123-0t64 (>= 1.28.0), libogg0 (>= 1.3.0), libopus0 (>= 1.1),   subprocess.py:838
+           libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2)                                                                                                                         
+           >>>     Description: Library for reading/writing audio files                                                                                            subprocess.py:838
+           >>>      libsndfile is a library of C routines for reading and writing files containing                                                                 subprocess.py:838
+           >>>      sampled audio data.                                                                                                                            subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      Various versions of WAV (integer, floating point, GSM, and compressed formats);                                                                subprocess.py:838
+           >>>      Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND                                                                    subprocess.py:838
+           >>>      formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;                                                                    subprocess.py:838
+           >>>      Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format                                                                subprocess.py:838
+           >>>      (CAF) and others.                                                                                                                              subprocess.py:838
+           >>>     Homepage: http://www.mega-nerd.com/libsndfile/                                                                                                  subprocess.py:838
+           >>>     Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>                                                         subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+           >>> Running Command:                                                                                                                                    subprocess.py:838
+           >>>     dpkg -s ffmpeg                                                                                                                                  subprocess.py:838
+           >>> Working Directory:                                                                                                                                  subprocess.py:838
+           >>>     /home/engon/nchatview                                                                                                                           subprocess.py:838
+           >>> Command Output:                                                                                                                                     subprocess.py:838
+           >>>     Package: ffmpeg                                                                                                                                 subprocess.py:838
+           >>>     Status: install ok installed                                                                                                                    subprocess.py:838
+           >>>     Priority: optional                                                                                                                              subprocess.py:838
+           >>>     Section: video                                                                                                                                  subprocess.py:838
+           >>>     Installed-Size: 2623                                                                                                                            subprocess.py:838
+           >>>     Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>                                                                           subprocess.py:838
+           >>>     Architecture: amd64                                                                                                                             subprocess.py:838
+           >>>     Multi-Arch: foreign                                                                                                                             subprocess.py:838
+           >>>     Version: 7:7.0.2-3ubuntu1                                                                                                                       subprocess.py:838
+           >>>     Depends: libavcodec61 (>= 7:7.0), libavdevice61 (>= 7:7.0), libavfilter10 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6   subprocess.py:838
+           (>= 2.35), libplacebo349 (>= 7.349.0), libpostproc58 (>= 7:7.0), libsdl2-2.0-0 (>= 2.0.12), libswresample5 (>= 7:7.0), libswscale8 (>= 7:7.0)                            
+           >>>     Suggests: ffmpeg-doc                                                                                                                            subprocess.py:838
+           >>>     Description: Tools for transcoding, streaming and playing of multimedia files                                                                   subprocess.py:838
+           >>>      FFmpeg is the leading multimedia framework, able to decode, encode, transcode,                                                                 subprocess.py:838
+           >>>      mux, demux, stream, filter and play pretty much anything that humans and                                                                       subprocess.py:838
+           >>>      machines have created. It supports the most obscure ancient formats up to the                                                                  subprocess.py:838
+           >>>      cutting edge.                                                                                                                                  subprocess.py:838
+           >>>      .                                                                                                                                              subprocess.py:838
+           >>>      This package contains:                                                                                                                         subprocess.py:838
+           >>>       * ffmpeg: a command line tool to convert multimedia files between formats                                                                     subprocess.py:838
+           >>>       * ffplay: a simple media player based on SDL and the FFmpeg libraries                                                                         subprocess.py:838
+           >>>       * ffprobe: a simple multimedia stream analyzer                                                                                                subprocess.py:838
+           >>>       * qt-faststart: a utility to rearrange Quicktime files                                                                                        subprocess.py:838
+           >>>     Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>                                                         subprocess.py:838
+           >>>     Homepage: https://ffmpeg.org/                                                                                                                   subprocess.py:838
+           >>> Return code: 0                                                                                                                                      subprocess.py:838
+                                                                                                                                                                   subprocess.py:838
+                                                                                                                                                                      __main__.py:42
+           Unable to build nchatview due to missing system dependencies. Run:                                                                                         __main__.py:43
+                                                                                                                                                                      __main__.py:43
+               sudo apt install libportaudio2                                                                                                                         __main__.py:43
+                                                                                                                                                                      __main__.py:43
+           to install the missing dependencies, and re-run Briefcase.                                                                                                 __main__.py:43
+           Saving log... started                                                                                                                                      console.py:433
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /home/engon/lib/python3.12/site-packages/briefcase/__main__.py:27 in main                                                                                                        │
+│                                                                                                                                                                                  │
+│   24 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   25 │   │   │   overrides=overrides,                                                                                                                                            │
+│   26 │   │   )                                                                                                                                                                   │
+│ ❱ 27 │   │   command(**options)                                                                                                                                                  │
+│   28 │   except HelpText as e:                                                                                                                                                   │
+│   29 │   │   console.info()                                                                                                                                                      │
+│   30 │   │   console.info(str(e))                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.platforms.linux.system.LinuxSystemBuildCommand object at 0x7b75ff1fbc50>                                                                          │ │
+│ │       console = <briefcase.console.Console object at 0x7b75feb15250>                                                                                                         │ │
+│ │             e = BriefcaseCommandError('Unable to build nchatview due to missing system dependencies. Run:\n\n    sudo apt install libportaudio2\n\nto install the missing    │ │
+│ │                 dependencies, and re-run Briefcase.\n')                                                                                                                      │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │       options = {                                                                                                                                                            │ │
+│ │                 │   'update': False,                                                                                                                                         │ │
+│ │                 │   'update_requirements': False,                                                                                                                            │ │
+│ │                 │   'update_support': False,                                                                                                                                 │ │
+│ │                 │   'update_stub': False,                                                                                                                                    │ │
+│ │                 │   'update_resources': False,                                                                                                                               │ │
+│ │                 │   'no_update': False,                                                                                                                                      │ │
+│ │                 │   'test_mode': False                                                                                                                                       │ │
+│ │                 }                                                                                                                                                            │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/commands/build.py:151 in __call__                                                                                             │
+│                                                                                                                                                                                  │
+│   148 │   │                                                                                                                                                                      │
+│   149 │   │   state = None                                                                                                                                                       │
+│   150 │   │   for app_name, app_obj in sorted(apps_to_build.items()):                                                                                                            │
+│ ❱ 151 │   │   │   state = self._build_app(                                                                                                                                       │
+│   152 │   │   │   │   app_obj,                                                                                                                                                   │
+│   153 │   │   │   │   update=update,                                                                                                                                             │
+│   154 │   │   │   │   update_requirements=update_requirements,                                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                    │
+│ │                 app = None                                                                                │                                                                    │
+│ │            app_name = 'nchatview'                                                                         │                                                                    │
+│ │             app_obj = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                   │                                                                    │
+│ │       apps_to_build = {'nchatview': <com.github.ken-morel.nchatview v0.0.1 AppConfig>}                    │                                                                    │
+│ │           no_update = False                                                                               │                                                                    │
+│ │             options = {}                                                                                  │                                                                    │
+│ │                self = <briefcase.platforms.linux.system.LinuxSystemBuildCommand object at 0x7b75ff1fbc50> │                                                                    │
+│ │               state = None                                                                                │                                                                    │
+│ │           test_mode = False                                                                               │                                                                    │
+│ │              update = False                                                                               │                                                                    │
+│ │ update_requirements = False                                                                               │                                                                    │
+│ │    update_resources = False                                                                               │                                                                    │
+│ │         update_stub = False                                                                               │                                                                    │
+│ │      update_support = False                                                                               │                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                    │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/commands/build.py:62 in _build_app                                                                                            │
+│                                                                                                                                                                                  │
+│    59 │   │   :param test_mode: Is the app being build in test mode?                                                                                                             │
+│    60 │   │   """                                                                                                                                                                │
+│    61 │   │   if not self.bundle_path(app).exists():                                                                                                                             │
+│ ❱  62 │   │   │   state = self.create_command(app, test_mode=test_mode, **options)                                                                                               │
+│    63 │   │   elif (                                                                                                                                                             │
+│    64 │   │   │   update  # An explicit update has been requested                                                                                                                │
+│    65 │   │   │   or update_requirements  # An explicit update of requirements has been reques                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                    │
+│ │                 app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                   │                                                                    │
+│ │           no_update = False                                                                               │                                                                    │
+│ │             options = {}                                                                                  │                                                                    │
+│ │                self = <briefcase.platforms.linux.system.LinuxSystemBuildCommand object at 0x7b75ff1fbc50> │                                                                    │
+│ │           test_mode = False                                                                               │                                                                    │
+│ │              update = False                                                                               │                                                                    │
+│ │ update_requirements = False                                                                               │                                                                    │
+│ │    update_resources = False                                                                               │                                                                    │
+│ │         update_stub = False                                                                               │                                                                    │
+│ │      update_support = False                                                                               │                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                    │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/commands/create.py:1009 in __call__                                                                                           │
+│                                                                                                                                                                                  │
+│   1006 │   │                                                                                                                                                                     │
+│   1007 │   │   state = None                                                                                                                                                      │
+│   1008 │   │   for app_name, app_obj in sorted(apps_to_create.items()):                                                                                                          │
+│ ❱ 1009 │   │   │   state = self.create_app(                                                                                                                                      │
+│   1010 │   │   │   │   app_obj,                                                                                                                                                  │
+│   1011 │   │   │   │   **full_options(state, options),                                                                                                                           │
+│   1012 │   │   │   )                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ────────────────────────────────────────────────╮                                                                        │
+│ │            app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                        │
+│ │       app_name = 'nchatview'                                                                          │                                                                        │
+│ │        app_obj = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                        │
+│ │ apps_to_create = {'nchatview': <com.github.ken-morel.nchatview v0.0.1 AppConfig>}                     │                                                                        │
+│ │        options = {'test_mode': False}                                                                 │                                                                        │
+│ │           self = <briefcase.platforms.linux.system.LinuxSystemCreateCommand object at 0x7b75fdd814c0> │                                                                        │
+│ │          state = None                                                                                 │                                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                        │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/commands/create.py:953 in create_app                                                                                          │
+│                                                                                                                                                                                  │
+│    950 │   │                                                                                                                                                                     │
+│    951 │   │   # Verify the app after the app template and support package                                                                                                       │
+│    952 │   │   # are in place since the app tools may be dependent on them.                                                                                                      │
+│ ❱  953 │   │   self.verify_app(app)                                                                                                                                              │
+│    954 │   │                                                                                                                                                                     │
+│    955 │   │   self.console.info("Installing application code...", prefix=app.app_name)                                                                                          │
+│    956 │   │   self.install_app_code(app=app, test_mode=test_mode)                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                           │
+│ │         app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                           │
+│ │ bundle_path = PosixPath('/home/engon/nchatview/build/nchatview/ubuntu/oracular')                   │                                                                           │
+│ │     options = {}                                                                                   │                                                                           │
+│ │        self = <briefcase.platforms.linux.system.LinuxSystemCreateCommand object at 0x7b75fdd814c0> │                                                                           │
+│ │   test_mode = False                                                                                │                                                                           │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                           │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/commands/base.py:635 in verify_app                                                                                            │
+│                                                                                                                                                                                  │
+│    632 │   │   :param app: app configuration                                                                                                                                     │
+│    633 │   │   """                                                                                                                                                               │
+│    634 │   │   self.verify_app_template(app)                                                                                                                                     │
+│ ❱  635 │   │   self.verify_app_tools(app)                                                                                                                                        │
+│    636 │   │   self.verify_required_python(app)                                                                                                                                  │
+│    637 │                                                                                                                                                                         │
+│    638 │   def verify_app_tools(self, app: AppConfig):                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                  │
+│ │  app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                                  │
+│ │ self = <briefcase.platforms.linux.system.LinuxSystemCreateCommand object at 0x7b75fdd814c0> │                                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                  │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/platforms/linux/system.py:624 in verify_app_tools                                                                             │
+│                                                                                                                                                                                  │
+│    621 │   │   │   # are installed.                                                                                                                                              │
+│    622 │   │   │   if verify_python:                                                                                                                                             │
+│    623 │   │   │   │   self.verify_system_python()                                                                                                                               │
+│ ❱  624 │   │   │   │   self.verify_system_packages(app)                                                                                                                          │
+│    625 │   │                                                                                                                                                                     │
+│    626 │   │   # Establish Docker as app context before letting super set subprocess                                                                                             │
+│    627 │   │   super().verify_app_tools(app)                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────── locals ───────────────────────────────────────────────╮                                                                         │
+│ │           app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                         │
+│ │          self = <briefcase.platforms.linux.system.LinuxSystemCreateCommand object at 0x7b75fdd814c0> │                                                                         │
+│ │ verify_python = True                                                                                 │                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                         │
+│                                                                                                                                                                                  │
+│ /home/engon/lib/python3.12/site-packages/briefcase/platforms/linux/system.py:576 in verify_system_packages                                                                       │
+│                                                                                                                                                                                  │
+│    573 │   │                                                                                                                                                                     │
+│    574 │   │   # If any required packages are missing, raise an error.                                                                                                           │
+│    575 │   │   if missing:                                                                                                                                                       │
+│ ❱  576 │   │   │   raise BriefcaseCommandError(                                                                                                                                  │
+│    577 │   │   │   │   f"""\                                                                                                                                                     │
+│    578 Unable to build {app.app_name} due to missing system dependencies. Run:                                                                                                   │
+│    579                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │                  app = <com.github.ken-morel.nchatview v0.0.1 AppConfig>                                    │                                                                  │
+│ │ base_system_packages = [                                                                                    │                                                                  │
+│ │                        │   'python3-dev',                                                                   │                                                                  │
+│ │                        │   ('dpkg-dev', 'build-essential'),                                                 │                                                                  │
+│ │                        │   ('g++', 'build-essential'),                                                      │                                                                  │
+│ │                        │   ('gcc', 'build-essential'),                                                      │                                                                  │
+│ │                        │   ('libc6-dev', 'build-essential'),                                                │                                                                  │
+│ │                        │   ('make', 'build-essential')                                                      │                                                                  │
+│ │                        ]                                                                                    │                                                                  │
+│ │            installed = 'ffmpeg'                                                                             │                                                                  │
+│ │              missing = {'libportaudio2'}                                                                    │                                                                  │
+│ │              package = 'ffmpeg'                                                                             │                                                                  │
+│ │          provided_by = 'ffmpeg'                                                                             │                                                                  │
+│ │                 self = <briefcase.platforms.linux.system.LinuxSystemCreateCommand object at 0x7b75fdd814c0> │                                                                  │
+│ │     system_installer = ['apt', 'install']                                                                   │                                                                  │
+│ │        system_verify = ['dpkg', '-s']                                                                       │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Unable to build nchatview due to missing system dependencies. Run:
+
+    sudo apt install libportaudio2
+
+to install the missing dependencies, and re-run Briefcase.
+

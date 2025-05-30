@@ -14,6 +14,12 @@ Classifier: Topic :: Utilities
 Requires-Python: >=3.10
 Description-Content-Type: text/markdown
 License-File: LICENSE
+Requires-Dist: textual>=0.52.1
+Requires-Dist: sounddevice>=0.4.6
+Requires-Dist: soundfile>=0.12.1
+Requires-Dist: numpy>=1.24.0
+Requires-Dist: comberload>=0.1.0
+Requires-Dist: sixel>=0.1.2
 Dynamic: license-file
 
 Hello!

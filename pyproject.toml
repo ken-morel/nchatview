@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "nchatview"
 version = "0.1.0"
 authors = [
-    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },  # Update email
+    { name = "Engon Ken Morel", email = "engonken8@gmail.com" },
 ]
 description = "A Python utility to open nchat message attachments from the command line"
 readme = "README.md"
@@ -19,6 +19,14 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Utilities",
 ]
+dependencies = [
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
+]
 
 [project.urls]
 Repository = "https://github.com/ken-morel/nchatview"
@@ -27,10 +35,6 @@ Repository = "https://github.com/ken-morel/nchatview"
 [project.scripts]
 nchatview = "nchatview:main"
 
-
-
-# content below this line added by briefcase convert
-# This project was generated with 0.3.23 using template: https://github.com/beeware/briefcase-template @ v0.3.23
 [tool.briefcase]
 project_name = "nchatview"
 bundle = "com.github.ken-morel"
@@ -53,57 +57,85 @@ test_sources = [
 console_app = true
 
 requires = [
-    # Add your cross-platform app requirements here
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
 ]
+
 test_requires = [
-    # Add your cross-platform test requirements here
+    "pytest>=7.0.0",
 ]
 
 [tool.briefcase.app.nchatview.macOS]
 universal_build = true
 requires = [
-    # Add your macOS-specific app requirements here
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
 ]
 
 [tool.briefcase.app.nchatview.linux]
 requires = [
-    # Add your Linux-specific app requirements here
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
 ]
 
 [tool.briefcase.app.nchatview.linux.system.debian]
 system_requires = [
-    # Add any system packages needed at build the app here
+    "libportaudio2",
+    "libsndfile1",
+    "ffmpeg",
 ]
-
 system_runtime_requires = [
-    # Add any system packages needed at runtime here
+    "libportaudio2",
+    "libsndfile1",
+    "ffmpeg",
 ]
 
 [tool.briefcase.app.nchatview.linux.system.rhel]
 system_requires = [
-    # Add any system packages needed at build the app here
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
 ]
-
 system_runtime_requires = [
-    # Add any system packages needed at runtime here
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
 ]
 
 [tool.briefcase.app.nchatview.linux.system.suse]
 system_requires = [
-    # Add any system packages needed at build the app here
+    "portaudio-devel",
+    "libsndfile",
+    "ffmpeg",
 ]
-
 system_runtime_requires = [
-    # Add any system packages needed at runtime here
+    "portaudio-devel",
+    "libsndfile",
+    "ffmpeg",
 ]
 
 [tool.briefcase.app.nchatview.linux.system.arch]
 system_requires = [
-    # Add any system packages needed at build the app here
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
 ]
-
 system_runtime_requires = [
-    # Add any system packages needed at runtime here
+    "portaudio",
+    "libsndfile",
+    "ffmpeg",
 ]
 
 [tool.briefcase.app.nchatview.linux.flatpak]
@@ -113,23 +145,25 @@ flatpak_sdk = "org.freedesktop.Sdk"
 
 [tool.briefcase.app.nchatview.windows]
 requires = [
-    # Add your Windows-specific app requirements here
+    "textual>=0.52.1",
+    "sounddevice>=0.4.6",
+    "soundfile>=0.12.1",
+    "numpy>=1.24.0",
+    "comberload>=0.1.0",
+    "sixel>=0.1.2",
 ]
 
-# Mobile deployments
 [tool.briefcase.app.nchatview.iOS]
 requires = [
-    # Add your iOS-specific app requirements here
+    # iOS may have limited support for these packages
 ]
 
 [tool.briefcase.app.nchatview.android]
 requires = [
-    # Add your Android-specific app requirements here
+    # Android may have limited support for these packages
 ]
 
-# Web deployments
 [tool.briefcase.app.nchatview.web]
 requires = [
-    # Add your web-specific app requirements here
+    # Web may have limited support for these packages
 ]
-

@@ -1,0 +1,12 @@
+# Generated using Briefcase 0.3.23 for ubuntu:oracular, Python 3.12
+[paths]
+app_path = "nchatview-0.0.1/usr/lib/nchatview/app"
+app_packages_path = "nchatview-0.0.1/usr/lib/nchatview/app_packages"
+
+icon.16 = "nchatview-0.0.1/usr/share/icons/hicolor/16x16/apps/com.github.ken-morel.nchatview.png"
+icon.32 = "nchatview-0.0.1/usr/share/icons/hicolor/32x32/apps/com.github.ken-morel.nchatview.png"
+icon.64 = "nchatview-0.0.1/usr/share/icons/hicolor/64x64/apps/com.github.ken-morel.nchatview.png"
+icon.128 = "nchatview-0.0.1/usr/share/icons/hicolor/128x128/apps/com.github.ken-morel.nchatview.png"
+icon.256 = "nchatview-0.0.1/usr/share/icons/hicolor/256x256/apps/com.github.ken-morel.nchatview.png"
+icon.512 = "nchatview-0.0.1/usr/share/icons/hicolor/512x512/apps/com.github.ken-morel.nchatview.png"
+# icon.scalable = "nchatview-0.0.1/usr/share/icons/hicolor/scalable/apps/com.github.ken-morel.nchatview.png"

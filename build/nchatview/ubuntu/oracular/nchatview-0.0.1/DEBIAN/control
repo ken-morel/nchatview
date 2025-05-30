@@ -1,0 +1,10 @@
+Package: nchatview
+Version: 0.0.1
+Architecture: amd64
+Maintainer: Engon Ken Morel <engonken8@gmail.com>
+Homepage: https://github.com/ken-morel/nchatview
+Description: A Python utility to open nchat message attachments from the command line
+ Easily dodges between applications depending on file type to open in appropriate app possibly on terminal.
+Depends: libc6 (>=2.40), libpython3.12, libportaudio2, libsndfile1, ffmpeg
+Section: utils
+Priority: optional

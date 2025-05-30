@@ -1,5 +1,15 @@
 import sys
 import os
+import time
+
+
+class XdgOpen(Exception):
+    pass
+
+
+class ExtenalXdgOpen(XdgOpen):
+    pass
+
 
 def choose_app(options: list[str]) -> int:
     print("Which app will you want to use?")
@@ -19,38 +29,35 @@ def choose_app(options: list[str]) -> int:
             continue
 
 
-
 def view_file(file: str):
     try:
+        time.sleep(1)
         if file.startswith("http"):
-            match choose_app(["lynx", "xdg-open"]):
-                case 1 | 0:
-                    os.system("lynx '{file}'")
-                case 2:
-                    raise Exception()
-
+            os.system("lynx '{file}'")
         ext = file.split(".")[-1]
-        if ext == "pdf":
-            match choose_app(["zathura", "xdg-open", "okular"]):
-                case 1 | 0:
-                    os.system(f"zathura '{file}'")
-                case 2:
-                    raise Exception()
-                case 3:
-                    os.system(f"okular '{file}'")
-        elif ext in ("png", "gif", "apng", "jpg", "jpeg"):
-            match choose_app(["magic sixel", "xdg"]):
-                case 0 | 1:
-                    os.system(f"clear&&convert '{file}' sixel:-")
-                    input("hit enter to exit\n> ")
-                case 2:
-                    raise Exception()
+        if ext in ("pdf", "png", "gif", "apng", "jpg", "jpeg", "webp"):
+            os.system(f"clear&&convert '{file}' sixel:-")
+            input("\n\nhit enter to exit\n> ")
+        elif ext == "txt":
+            from . import mdview
+
+            os.system("clear")
+
+            mdview.view_file(file)
+            input("Press enter to exit\n> ")
         elif ext in ("md", "txt", "log"):
             os.system(f"nvim '{file}'")
+        elif ext in ("mp3", "oga"):
+            from . import audioplayer
+
+            audioplayer.play_file(file)
         else:
-            raise Exception()
-    except Exception:
+            os.system(f"xdg-open '{file}'")
+    except KeyboardInterrupt:
+        os.system(f"swaymsg exec xdg-open '{file}'")
+    except XdgOpen:
         os.system(f"xdg-open '{file}'")
+
 
 def main():
     if len(sys.argv) < 2:
@@ -59,5 +66,3 @@ def main():
     else:
         file = sys.argv[1]
         view_file(file)
-
-
