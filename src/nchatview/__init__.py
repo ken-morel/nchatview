@@ -35,9 +35,13 @@ def view_file(file: str):
         if file.startswith("http"):
             os.system("lynx '{file}'")
         ext = file.split(".")[-1]
-        if ext in ("pdf", "png", "gif", "apng", "jpg", "jpeg", "webp"):
-            os.system(f"clear&&convert '{file}' sixel:-")
+        if ext in ("png", "gif", "apng", "jpg", "jpeg", "webp"):
+            os.system(f"clear&&convert '{file}' gif:- | chafa")
             input("\n\nhit enter to exit\n> ")
+        elif ext == "pdf":
+            from . import pdfview
+
+            pdfview.view_file(file)
         elif ext == "txt":
             from . import mdview
 
